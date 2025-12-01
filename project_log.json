@@ -1,0 +1,226 @@
+[
+  {
+    "ts": 1764563822.6923995,
+    "agent": "planner",
+    "action": "plan_created",
+    "plan": {
+      "task_id": "da198974-d5eb-440b-a9aa-b7ccff662c78",
+      "intent": "summarize",
+      "user_input": "Hello!",
+      "steps": [
+        {
+          "worker": "categorizer",
+          "action": "categorize"
+        },
+        {
+          "worker": "summary",
+          "action": "summarize"
+        }
+      ]
+    }
+  },
+  {
+    "ts": 1764563822.6927662,
+    "agent": "categorizer",
+    "count": 0
+  },
+  {
+    "ts": 1764563822.6930711,
+    "agent": "summary_builder",
+    "totals": {}
+  },
+  {
+    "ts": 1764563822.6933725,
+    "agent": "evaluator",
+    "verdict": {
+      "valid": true,
+      "issues": [],
+      "results": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764563822.693669,
+    "agent": "main",
+    "user_input": "Hello!",
+    "outcome": {
+      "status": "ok",
+      "response": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764564312.5403223,
+    "agent": "planner",
+    "action": "plan_created",
+    "plan": {
+      "task_id": "23303576-cb7c-4c07-af1d-2701d7ad624b",
+      "intent": "summarize",
+      "user_input": "Hello!",
+      "steps": [
+        {
+          "worker": "categorizer",
+          "action": "categorize"
+        },
+        {
+          "worker": "summary",
+          "action": "summarize"
+        }
+      ]
+    }
+  },
+  {
+    "ts": 1764564312.5411158,
+    "agent": "categorizer",
+    "count": 0
+  },
+  {
+    "ts": 1764564312.5416472,
+    "agent": "summary_builder",
+    "totals": {}
+  },
+  {
+    "ts": 1764564312.5423768,
+    "agent": "evaluator",
+    "verdict": {
+      "valid": true,
+      "issues": [],
+      "results": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764564312.5432563,
+    "agent": "main",
+    "user_input": "Hello!",
+    "outcome": {
+      "status": "ok",
+      "response": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764564339.6759744,
+    "agent": "planner",
+    "action": "plan_created",
+    "plan": {
+      "task_id": "265dba92-5db8-4ecc-830c-2997188b4a68",
+      "intent": "summarize",
+      "user_input": "what are my expenses for this month",
+      "steps": [
+        {
+          "worker": "categorizer",
+          "action": "categorize"
+        },
+        {
+          "worker": "summary",
+          "action": "summarize"
+        }
+      ]
+    }
+  },
+  {
+    "ts": 1764564339.6766815,
+    "agent": "categorizer",
+    "count": 0
+  },
+  {
+    "ts": 1764564339.6773357,
+    "agent": "summary_builder",
+    "totals": {}
+  },
+  {
+    "ts": 1764564339.6778958,
+    "agent": "evaluator",
+    "verdict": {
+      "valid": true,
+      "issues": [],
+      "results": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764564339.6785498,
+    "agent": "main",
+    "user_input": "what are my expenses for this month",
+    "outcome": {
+      "status": "ok",
+      "response": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764566251.6136334,
+    "agent": "planner",
+    "action": "plan_created",
+    "plan": {
+      "task_id": "387834e2-c4b5-4c2b-bf06-dd357d1f5818",
+      "intent": "summarize",
+      "user_input": "what are my expenses for this month",
+      "steps": [
+        {
+          "worker": "categorizer",
+          "action": "categorize"
+        },
+        {
+          "worker": "summary",
+          "action": "summarize"
+        }
+      ]
+    }
+  },
+  {
+    "ts": 1764566251.6165686,
+    "agent": "categorizer",
+    "count": 0
+  },
+  {
+    "ts": 1764566251.6179073,
+    "agent": "summary_builder",
+    "totals": {}
+  },
+  {
+    "ts": 1764566251.6186702,
+    "agent": "evaluator",
+    "verdict": {
+      "valid": true,
+      "issues": [],
+      "results": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  },
+  {
+    "ts": 1764566251.6238706,
+    "agent": "main",
+    "user_input": "what are my expenses for this month",
+    "outcome": {
+      "status": "ok",
+      "response": {
+        "categories": [],
+        "totals": {},
+        "overall": 0
+      }
+    }
+  }
+]
